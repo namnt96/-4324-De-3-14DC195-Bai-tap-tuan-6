@@ -27,7 +27,7 @@ public class GiaiQuyet  extends UnicastRemoteObject implements ThuatToan{
    @Override
        public int [] ketQua(int[] array) throws RemoteException{ 
         System.out.println("");
-        System.out.print( "Dãy Số Nhập vào - " );  
+        System.out.print( "Dãy số được nhập vào là: " );  
          for (int i=0; i < array.length; i++) System.out.print( array[i] + " " );        
              System.out.println();
              for (int g = array.length/2; g > 0; g /= 2)
